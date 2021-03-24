@@ -470,6 +470,10 @@ textarea {
   overflow: hidden;
 }
 
+.modal-checkbox:focus + .checkbox-icon {
+  outline: 2px solid var(--accent-color);
+}
+
 .checkbox-icon {
   display: inline-block;
   border: 2px solid var(--main-font-color);
@@ -484,7 +488,7 @@ textarea {
 }
 
 .modal-checkbox:checked + .checkbox-icon {
-  transform: scale(1.2);
+  transform: scale(1.1);
   border-color: var(--accent-color);
   background-color: var(--accent-color);
   background-size: contain;
@@ -493,7 +497,6 @@ textarea {
 
 .agreement-link {
   color: var(--accent-color);
-  margin-left: 5px;
 }
 
 .agr-btn {
