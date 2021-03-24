@@ -475,6 +475,7 @@ textarea {
   border: 2px solid var(--main-font-color);
   border-radius: 2px;
   margin-right: 8px;
+  cursor: pointer;
 
   transition: background-color var(--transition-duration)
       var(--transition-function),
